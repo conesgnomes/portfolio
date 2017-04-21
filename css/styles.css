@@ -6,6 +6,7 @@ h1 {
   font-family: 'Abril Fatface', cursive;
   font-size: 100px;
   margin-top: 140px;
+  text-align: center;
 }
 
 h3 {
@@ -17,8 +18,21 @@ img {
   max-width: 200px;
   margin-left: -100px;
   margin-top: 50px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 45px -6px rgba(0,0,0,0.75);
 }
 
-.about-me {
+.about-me-head {
   font-size: 50px;
+  text-align: center;
+}
+
+.about-me-sec {
+  margin-top: 50px;
+  border-bottom: solid;
+}
+
+.about-me-par-div {
+  margin: 30px 185px;
+  text-align: center;
 }
