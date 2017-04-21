@@ -9,7 +9,6 @@ body {
   max-width: 200px;
   margin: auto;
   margin-bottom: 25px;
-  border-radius: 5px;
 }
 
 h3 {
@@ -84,8 +83,12 @@ h4 {
   margin-bottom: 30px;
 }
 
-.resume li {
+.panel-title li {
   list-style-type: square;
+}
+
+.sublist li {
+  list-style-type: circle;
 }
 
 .panel-title {
@@ -98,4 +101,8 @@ h4 {
 
 .project-names {
   text-transform: uppercase;
+}
+
+a:link {
+  color: #e5c4ac;
 }
